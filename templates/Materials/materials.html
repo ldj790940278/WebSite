@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Title</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/jQuery.js"></script>
+    <link rel="stylesheet"
+          href="/static/$指定个样式$.css">
+    <link rel="stylesheet" href="/static/Navi.css">
+    <link rel="stylesheet" href="/static/side1.css">
+    <link rel="stylesheet" href="/static/material_css/queryByOrm.css">
+    <style>
+        body{
+            background-color: #e0e0e0;
+        }
+    </style>
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+{% include 'include/header1.html' %}
+<p style="margin-top: 5px;height: 50px;line-height: 50px">生如夏花之绚烂，死如秋叶之静美</p>
+<div id="sideAndContent" >
+    <div id="side1" style="height: 600px">
+        <div class="box3 a3">
+            <a class="a-s" href="http://127.0.0.1:8000/materials/fabric">布料</a>
+        </div>
+        <div class="box3 b3">
+            <a class="a-s" href="http://127.0.0.1:8000/materials/leather">皮革</a>
+        </div>
+        <div class="box3 c3">
+            <a class="a-s" href="http://127.0.0.1:8000/grid/">车漆</a>
+        </div>
+        <div class="box3 d3">
+            <a class="a-s" href="http://127.0.0.1:8000/cla/">地面</a>
+        </div>
+        <div class="box3 e3">
+            <a class="a-s" href="http://127.0.0.1:8000/materials/">木头</a>
+        </div>
+        <div class="box3 f3">
+            <a class="a-s" href="http://127.0.0.1:8000/upload/">塑料</a>
+        </div>
+        <div class="box3 g3">
+            <a class="a-s" href="http://127.0.0.1:8000/materials/upload/">提交材料</a>
+        </div>
+        <div class="box3 h33">
+            <a class="a-s" href="http://127.0.0.1:8000/materials/download/">下载材质</a>
+        </div>
+        <div class="box3 i3"></div>
+        <div class="box3 j3"></div>
+        <div class="box3 k3"></div>
+        <div class="box3 l3">
+
+        </div>
+
+    </div>
+
+    <div class="content_main" style="height: fit-content">
+        {% block table %}
+{#        <table   style="width: 100%;">#}
+{#            <tr class="img">#}
+{#                <td class="img">#}
+{#                        <img id="img_i1"#}
+{#                             src="/static/media/images/sky.jpg"/></td>#}
+{#                <td class="img"><img id="img_i1" src="/static/media/images/sea.jpg"/></td>#}
+{#                <td class="img"><img id="img_i1" src="/static/media/images/sky.jpg"#}
+{#                /></td>#}
+{#                <td class="img"></td>#}
+{#                <td class="img"></td>#}
+{#            </tr>#}
+{#            <tr class="imaName">#}
+{#                <td class="imaName">January</td>#}
+{#                <td class="imaName">$100</td>#}
+{#                <td class="imaName">$100</td>#}
+{#                <td class="imaName">$100</td>#}
+{#                <td class="imaName">$100</td>#}
+{##}
+{#            </tr>#}
+{#            <tr class="img" >#}
+{#                <td ><img id="img_i1" src="/static/media/sea.jpg"/></td>#}
+{#                <td >$100</td>#}
+{#                <td >$100</td>#}
+{#                <td>$100</td>#}
+{#                <td>$100</td>#}
+{##}
+{#            </tr>#}
+{#        </table>#}
+            {% include 'include/gallery.html' %}
+        {% endblock %}
+
+
+{#        <script type="javascript">#}
+{#            $("td").height(300)#}
+{#        </script>#}
+    </div>
+
+{#    <script>#}
+{##}
+{#       var w1= $(".i1").width();#}
+{#        $(".i1").height=0;padding-bottom=20%;#}
+{#       $(".i1").style.#}
+{##}
+{##}
+{##}
+{#    </script>#}
+
+
+</div>
+<div>
+    <nav aria-label="Page navigation"
+         style="position: fixed;z-index: 100 ;width:auto;height:auto;
+    right: 10%;bottom: 0" >
+        <ul class="pagination">
+            {{ allPage|safe }}
+        </ul>
+    </nav>
+</div>
+{#<div style="margin-left: 40%;width: fit-content" >#}
+{#    {% if fabric_list.has_previous%}#}
+{#        <a class="page"#}
+{#                href="?page={{ fabric_list.previous_page_number }}"#}
+{#                >上一页</a>#}
+{#    {% endif %}#}
+{#        {% for num in fabric_list.paginator.page_range %}#}
+{#            <a style="padding-left: 10px;padding-right: 10px" href="?page={{ num }}">{{ num }}</a>#}
+{#        {% endfor %}#}
+{#        #}
+{#    {% if fabric_list.has_next%}#}
+{#        <a class="page"#}
+{#                href="?page={{ fabric_list.next_page_number }}"#}
+{#               >下一页</a>#}
+{##}
+{#    {% endif %}#}
+{#    {{ allPage|safe }}#}
+{##}
+{#</div>#}
+
+
+{% block js %}
+{% endblock %}
+</body>
+</html>

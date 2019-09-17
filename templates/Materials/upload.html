@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Title</title>
+    <script src="/static/jQuery.js"></script>
+    <link rel="stylesheet"
+          href="/static/material_css/upload.css">
+    <link rel="stylesheet" href="/static/Navi.css">
+</head>
+<body>
+{% include 'include/header1.html' %}
+<div class="container">
+    <form action=""
+          method="post"
+          enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="text">
+
+            <input type='text'
+                   name='img_name'
+                   placeholder="请输入编号">
+        </div>
+        <div class="file">
+            <input type="file"
+                   id="file"
+{#                   multiple=""#}
+{#                   webkitdirectory=""#}  文件夹
+                   name="img_file"
+            >
+        </div>
+
+            <div class="sub">
+                <input
+                    type="submit"
+                    value="提交材质">
+            </div>
+    </form>
+    <div style="margin-left: 200px;">
+        <a href="http://127.0.0.1:8000/materials/query/">查询</a>
+    </div>
+    <div style="margin-top: 80px" id="bt1">
+
+        <button id="bt1">点击这里进行切换</button>
+    </div>
+    <script>
+        $('#bt1').on('click',function(){
+            alert('你好')
+        })
+    </script>
+</div>
+
+</body>
+</html>

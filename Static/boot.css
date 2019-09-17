@@ -1,0 +1,20 @@
+*{font-size: 20px;}
+#a1>div{
+    border:2px solid red;
+}
+
+#a1{
+    background-color: black;
+}
+#la1{
+    background-color: #da6f2b;
+}
+#ma1{
+    background-color: paleturquoise;
+}
+#ra1{
+    background-color: #b2dba1;
+}
+#l-ma1{
+    background-color: black;
+}

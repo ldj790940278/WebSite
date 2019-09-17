@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        bootStrap</title>
+    <script src="/static/jQuery.js"></script>
+    <link rel="stylesheet"
+          href="/static/boot.css">
+
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/Navi.css">
+
+</head>
+<body>
+{% include 'include/header1.html' %}
+    <div class="container-fluid" style="margin-top: 100px">
+            <div id="a1" class="row">a1
+                <div class="col-md-2" id="la1">la1</div>
+                <div class="col-md-6" id="ma1">ma1
+                    <div class="col-md-2 col-lg-offset-5" id="l-ma1" >中间
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-offset-2"id="ra1" >ra1</div>
+            </div>
+
+
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Sign in</button>
+        </form>
+
+        <select class="form-control" style="width: 10%">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
+        <button type="button" class="btn btn-primary" style="height: 60px ">
+            <span class="glyphicon-yen glyphicon-align-left" aria-hidden="true"></span>
+            （首选项）Primary
+        </button>
+
+
+
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-primary" style="height: 60px ">
+                <span class="glyphicon-yen glyphicon-align-left" aria-hidden="true"></span>
+                （首选项）Primary
+            </button>
+            <button type="button" class="btn btn-default">Middle</button>
+            <button type="button" class="btn btn-default">Right</button>
+        </div>
+
+        <button type="button" class="btn btn-primary" style="height: 60px ">
+            <span class="glyphicon-yen glyphicon-align-left" aria-hidden="true"></span>
+            （首选项）Primary
+        </button>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="/static/sea.jpg" alt="">
+                    <div class="caption">
+                        <h3>车漆材质</h3>
+{#                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress" id="bar">
+            <div class="progress-bar progress-bar-striped active" id="bar1" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 1%">
+                <span class="sr-only">45% Complete</span>
+            </div>
+        </div>
+        <script>
+            var $d1 = $("#bar1");
+            var width = 0;
+            var theID = setInterval(setValue, 200);
+
+            function setValue() {
+                if (width === 100) {
+                    clearInterval(theID);
+                } else {
+                    width=width+2;
+                    $d1.css("width", width+"%").text(width+"%");
+                }
+            }
+
+            模拟滚动的进度条
+        </script>
+
+
+
+
+    </div>
+</body>
+</html>

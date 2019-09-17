@@ -1,0 +1,21 @@
+<div class="full2">
+    {% for fabric in fabric_list %}
+        <div class="box2 a2" >
+            <div>
+
+                <img src="  {{ MEDIA_URL }}{{ fabric.img_file }}"
+                     id="myp"
+                     alt="">
+
+
+            </div>
+            <div>
+                {{ fabric.id }}
+
+
+
+            </div>
+        </div>
+    {% endfor %}
+
+</div>

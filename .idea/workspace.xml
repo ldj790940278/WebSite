@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0e77598-8cd8-43bb-908b-2da2829c3818" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebSite" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CoffeeScript Class" />
+        <option value="CoffeeScript File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1P4KzcIJneBFy2ob6Ntm3eLnbvf" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/Static" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\1Python\Project\WebSite\Static\media\images\fuck" />
+      <recent name="F:\1Python\Project\WebSite\templates\include" />
+      <recent name="F:\1Python\Project\WebSite\templates\Materials" />
+      <recent name="F:\1Python\Project\WebSite\Static" />
+      <recent name="F:\1Python\Project\WebSite\materials" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\1Python\Project\WebSite\templates" />
+      <recent name="F:\1Python\Project\WebSite\templates\Materials" />
+      <recent name="F:\1Python\Project\WebSite\FirstWeb" />
+      <recent name="F:\1Python\Project\WebSite\Static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="WebSite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="WebSite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="WebSite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0e77598-8cd8-43bb-908b-2da2829c3818" name="Default Changelist" comment="" />
+      <created>1565128191951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565128191951</updated>
+      <workItem from="1565128229841" duration="5244000" />
+      <workItem from="1565218081282" duration="3258000" />
+      <workItem from="1565221626863" duration="2942000" />
+      <workItem from="1565284557419" duration="2991000" />
+      <workItem from="1565322059460" duration="3123000" />
+      <workItem from="1565403377817" duration="8980000" />
+      <workItem from="1565412421422" duration="2929000" />
+      <workItem from="1565431695043" duration="690000" />
+      <workItem from="1565470613116" duration="9450000" />
+      <workItem from="1565564565121" duration="18558000" />
+      <workItem from="1565594649632" duration="2559000" />
+      <workItem from="1565604570262" duration="3662000" />
+      <workItem from="1565646585692" duration="20561000" />
+      <workItem from="1565677557555" duration="24177000" />
+      <workItem from="1565728411920" duration="39621000" />
+      <workItem from="1565770945549" duration="5848000" />
+      <workItem from="1565795907480" duration="4585000" />
+      <workItem from="1565825360854" duration="3523000" />
+      <workItem from="1565890479084" duration="4034000" />
+      <workItem from="1565910937344" duration="19714000" />
+      <workItem from="1565970620025" duration="3967000" />
+      <workItem from="1565987000820" duration="15183000" />
+      <workItem from="1566042449105" duration="2802000" />
+      <workItem from="1566260848932" duration="19454000" />
+      <workItem from="1566286668065" duration="4787000" />
+      <workItem from="1566315502466" duration="4255000" />
+      <workItem from="1566332545594" duration="6597000" />
+      <workItem from="1566341526110" duration="3312000" />
+      <workItem from="1566345498753" duration="10963000" />
+      <workItem from="1566434028953" duration="18802000" />
+      <workItem from="1566529215173" duration="6209000" />
+      <workItem from="1566630412659" duration="2147000" />
+      <workItem from="1566694374032" duration="1509000" />
+      <workItem from="1566718761139" duration="3970000" />
+      <workItem from="1566777840084" duration="13562000" />
+      <workItem from="1566797730292" duration="5055000" />
+      <workItem from="1566865997562" duration="6369000" />
+      <workItem from="1566887420007" duration="14372000" />
+      <workItem from="1566906002567" duration="7452000" />
+      <workItem from="1566976629610" duration="440000" />
+      <workItem from="1567043023371" duration="12589000" />
+      <workItem from="1567121124233" duration="16555000" />
+      <workItem from="1567174110099" duration="36000" />
+      <workItem from="1567182256523" duration="1362000" />
+      <workItem from="1567214887669" duration="9507000" />
+      <workItem from="1567257838851" duration="4290000" />
+      <workItem from="1567270236858" duration="1278000" />
+      <workItem from="1567303633182" duration="23353000" />
+      <workItem from="1567383936771" duration="15262000" />
+      <workItem from="1567771258611" duration="1262000" />
+      <workItem from="1567998875664" duration="127000" />
+      <workItem from="1567999170885" duration="108000" />
+      <workItem from="1568017968467" duration="12140000" />
+      <workItem from="1568037377992" duration="2355000" />
+      <workItem from="1568088055145" duration="24778000" />
+      <workItem from="1568172679326" duration="11129000" />
+      <workItem from="1568221405745" duration="4777000" />
+      <workItem from="1568256677191" duration="3941000" />
+      <workItem from="1568289898949" duration="3029000" />
+      <workItem from="1568358376573" duration="1191000" />
+      <workItem from="1568734339300" duration="579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

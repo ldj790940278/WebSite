@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Title</title>
+    <script src="/static/jQuery.js"></script>
+    <link rel="stylesheet"
+          href="/static/$指定个样式$.css">
+    <link rel="stylesheet" href="/static/Navi.css">
+    <style>
+        .parent{
+            height: 300px;width: 300px;background-color: silver;
+            position: fixed;
+           left: 50%;
+           top: 50%;
+            margin-left: -150px;
+            margin-top: -320px;
+        }
+    </style>
+</head>
+<body>
+{% include 'include/header1.html' %}
+<div style="margin-top: 10px;float: left;margin-left: 15%;margin-top: 10px">
+
+    <button id="bt1" onclick="test(this)"
+            style="width: 140px;height: 45px;">
+        添加
+    </button>
+    <div>
+        <button id="bt2"
+                style="width: 140px;height: 45px;">
+            删除
+        </button>
+    </div>
+    <form action="" method="post">
+        <input type="text" id="text01" name="text01">
+        <span id="error"></span>
+        <div>
+            <input
+                type="submit"
+                name="sub01">
+        </div>
+    </form>
+    <p></p>
+</div>
+<div class="parent" >
+
+    <script>
+        $('#bt1').on('click', function () {
+            $.ajax({
+                url:'/cla/',
+                type:'POST',
+                data:{'add':$("#text01").val()},
+                success:function (result) {
+                    if (result==1){
+                        location.href='/cla/';
+                        $("p").text('正确');
+                    }
+                    else {
+                        $("p").text('错误');
+                    }
+                }
+            })
+        })
+        $('#bt2').on('click', function () {
+            $.ajax({
+                url:'/cla/',
+                type:'POST',
+                data:{'delete':$("#text01").val()},
+                success:function (result) {
+                    if (result==0){
+                        $("p").text('删除成功');
+                        location.href='/cla/';
+                    }
+                    else {
+                        $("p").text('错误2');
+                    }
+                }
+            })
+        })
+    </script>
+    <div>
+        <a href="/newClass/">添加</a>
+    </div>
+    <table border="1px">
+        <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                班级名称
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in class_list %}
+            <tr>
+                <td>
+                    {{ row.id }}
+                </td>
+                <td>
+                    {{ row.ClassName }}
+                </td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+</div>
+
+
+
+</body>
+</html>

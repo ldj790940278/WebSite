@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+   <script src="/static/jQuery.js">   </script>
+     <link rel="stylesheet" href="/static/Navi.css">
+   <link rel="stylesheet" href="/static/material_css/queryByOrm.css">
+</head>
+<body>
+{% include 'include/header1.html' %}
+
+<div class="full2">
+    {% for fabric in fabric_list %}
+        <div class="box2 a2" >
+        <div>
+
+            <img src="  {{ MEDIA_URL }}{{ fabric.img_file }}" style="width: 100%;height: 16vw"
+                 alt="" id="myp">
+
+
+        </div>
+        <div>
+            {{ fabric.id }}
+
+
+
+        </div>
+        </div>
+    {% endfor %}
+
+
+
+
+{#    <div class="box2 b2">#}
+{#    </div>#}
+{#    <div class="box2 c2">注册</div>#}
+{#    <div class="box2 d2">密码：</div>#}
+{#    <div class="box2 e2">输入框</div>#}
+{#    <div class="box2 f2">忘记密码</div>#}
+{#    <div class="box2 g2"></div>#}
+{#    <div class="box2 h2">登录</div>#}
+{#    <div class="box2 i2"></div>#}
+</div>
+
+
+
+
+</body>
+</html>

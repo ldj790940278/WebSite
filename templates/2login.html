@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Title</title>
+    <script src="/static/jQuery.js"></script>
+    <link rel="stylesheet"
+          href="/static/2login.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="parent" style="background-color: silver  " >
+    <form action="/login/" method="post">
+        <input type="text" placeholder="邮箱" style="width: 100%" name="email">
+         <input type="text" placeholder="密码" style="width: 100%" name="pwd">
+        <input type="submit" value="提交">
+        <div>
+
+            <h5>
+                {{ msg1.0 }}
+            </h5>
+            <h5>
+                {{ msg1.1 }}
+            </h5>
+            <h5>
+            {{ msg2.k1.0}}
+        </h5>
+            <h5>
+                {{ msg2.k1.1}}
+            </h5>
+            <h5>
+                {{ msg2.k2}}
+            </h5>
+            {% for item in msg3 %}
+                <h5>
+                    {{ item }}</h5>
+            {% endfor %}
+        </div>
+
+        
+
+    </form>
+
+
+</div>
+</body>
+
+</html>

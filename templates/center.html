@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Title</title>
+{#    boot配置  让手机端没有滚动条#}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {#    boot配置  取消margin之类#}
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/center.css">
+    <link rel="stylesheet" href="/static/center2.css">
+    <script src="/static/jQuery.js">   </script>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <script src="/static/0FirstJavaS.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="main">
+    <div class="left-n">
+        <ul>
+
+            <li>
+                <a href="">浏览材质</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:8000/boot/">bootStrap</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:8000/grid/">Grid示例</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:8000/cla/">班级管理</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:8000/materials/?page=1">材质</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:8000/materials/upload/">TryDjango</a>
+            </li>
+        </ul>
+    </div>
+    <div class="right-n">
+        <div class="right-n1">
+            <ul class="right-ul">
+
+                <li>
+                    <a href="http://127.0.0.1:8000/login/"><a class="a-n" href="http://127.0.0.1:8000/music/">music</a></a>
+                </li>
+                <li>
+                    <a href=""><a class="a-n" href="http://127.0.0.1:8000/myblog/">myblog</a></a>
+                </li>
+                <li>
+                    <a href="">用户管理</a>
+                </li>
+            </ul></div>
+        <div class="right-n2">
+        </div>
+    </div>
+</div>
+<div class="blownav">
+    <div class="blownav1" >
+        <div id="blownav1-1">居中Flex</div>
+    </div>
+    <div class="blownav2" >
+        左边
+        <div class="blowav2-2">
+            <div class="blownav2-3">右边中点</div>
+        </div>
+
+        </div>
+
+    </div>
+
+<script>
+    $("#A1").click(function(){
+        $("#jQuery")[0].style.backgroundColor="#111111";
+        $("#A1")[0].text("Hello world!");
+    });
+</script>
+</div>
+<div class="a1">
+    <div class="la1" >
+        <div class="l-la1">30%</div>
+    </div>
+
+    <div class="ra1">右
+    <div class="m-ra1">右边中间</div>
+    </div>
+    <div  class="ma1">中间float</div>
+
+</div>
+<div class="a2" >
+    <div id="A1">A1</div>
+    <div id="B2">B2</div>
+    <div id="C3">CGrid</div>
+    <div id="D4">D</div>
+    <div id="E5">E
+        <div class="G6">G6</div>
+    </div>
+
+
+
+</div>
+<div id="jQuery">
+    <div id="text1">
+        <button id="button1" type="button">
+            jQuery_点我变黑，改变A1文字
+        </button>
+    </div>
+    <div id="im1">
+        <img id="im2" src="/static/sea.jpg"
+
+
+             alt="">
+    </div>
+</div>
+<script>
+    $("#button1").click(function(){
+        $("#jQuery")[0].style.backgroundColor="#111111";
+        var newUrl="/static/sky.jpg"
+        $("#A1")[0].innerText="你好";
+
+        var picSrc = $("#im2").attr('src');
+
+        $('#im2').attr("src", "/static/sky.jpg");
+
+    });
+</script>
+<div id="jQuery2">
+    <div id="text2">
+        <button id="button2" type="button">
+           jQuery—on改变A1文字
+        </button>
+    </div>
+    <div id="im3">
+        <img id="im4" src="/static/sea.jpg"
+
+
+             alt="">
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+
+    });
+    $("#button2").on("click",function () {
+        $("#jQuery2")[0].style.backgroundColor="#111111";
+    });
+</script>
+<div>
+    <button class="btn-danger">危险！</button>
+</div>
+
+
+
+
+{#<div class="a3">#}
+{#    <div id="A">A</div>#}
+{#    <div id="B">B</div>#}
+{#    <div id="C">C</div>#}
+{#    <div id="D">D</div>#}
+{#    <div id="E">E</div>#}
+{#    <div id="F">F</div>#}
+{#    <div id="G">G</div>#}
+{#    <div id="H">H</div>#}
+{#    <div id="I">I</div>#}
+{#</div>#}
+{##}
+{##}
+{##}
+{##}
+{##}
+{#<div class="grid-1">#}
+{#    <div class="item-1">1</div>#}
+{#    <div class="item-2">2</div>#}
+{#    <div class="item-3">3</div>#}
+{#    <div class="item-4">4</div>#}
+{#    <div class="item-5">5</div>#}
+{#    <div class="item-6">6</div>#}
+{#    <div class="item-7">7</div>#}
+{#    <div class="item-8">8</div>#}
+{#    <div class="item-9">9</div>#}
+{#    <div class="item-10">10</div>#}
+{#    <div class="item-11">11</div>#}
+{#    <div class="item-12">12</div>#}
+{#    <div class="item-13">13</div>#}
+{#    <div class="item-14">14</div>#}
+{#    <div class="item-15">15</div>#}
+{#    <div class="item-16">16</div>#}
+{#    <div class="item-17">17</div>#}
+{#    <div class="item-18">18</div>#}
+{##}
+{##}
+{#</div>#}
+
+</body>
+</html>
