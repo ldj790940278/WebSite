@@ -11,7 +11,7 @@ pytz==2019.2
 requests==2.18.4
 six==1.12.0
 sqlparse==0.3.0
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==16.7.2
 you-get==0.4.1314
 youtube-dl==2019.7.27
